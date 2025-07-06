@@ -38,4 +38,10 @@ public class EmployeeController {
     public String show6th() {
         return "employee/therd";
     }
+
+    //【指摘】Javadocをつけましょう。
+    @GetMapping("/emp/end")
+    public String show7th() {
+        return "employee/therd";
+    }
 }
