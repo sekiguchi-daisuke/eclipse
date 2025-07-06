@@ -17,7 +17,7 @@ public class EmployeeController {
     }
 
       @GetMapping("/emp/end")
-    public String showEnd() {
+    public String showSecond() {
         return "employee/end";
     }
 }
