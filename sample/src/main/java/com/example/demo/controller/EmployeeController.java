@@ -29,4 +29,9 @@ public class EmployeeController {
     public String showTherd() {
         return "employee/therd";
     }
+    
+    @GetMapping("/emp/end")
+    public String show6th() {
+        return "employee/therd";
+    }
 }
