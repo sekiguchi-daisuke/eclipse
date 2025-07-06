@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class EmployeeController {
 
-    private final Service service;
+//    private final Service service;
 
     @GetMapping("/")
     public String index() {
