@@ -36,6 +36,7 @@ public class EmployeeController {
     }
 
     /**
+     * 【指摘】ここにコメントを追加しましょう。
      *
      * @return
      */
@@ -45,6 +46,7 @@ public class EmployeeController {
     }
 
     /**
+     * 【指摘】ここにコメントを追加しましょう。
      *
      * @return
      */
