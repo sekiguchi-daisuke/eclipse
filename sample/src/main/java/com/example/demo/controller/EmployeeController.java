@@ -50,8 +50,9 @@ public class EmployeeController {
      *
      * @return
      */
-    @GetMapping("/emp/end")
-    public String show5th() {
-        return "employee/5th";
-    }
+    //【指摘】不要なコメントは消しましょう。
+    // @GetMapping("/emp/end")
+    // public String show5th() {
+    // return "employee/5th";
+    // }
 }
