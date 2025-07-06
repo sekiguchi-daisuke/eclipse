@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class EmployeeController {
 
-    private final Service service;
-    
+//    private final Service service;
+
     @GetMapping("/")
     public String index() {
         return "index";
@@ -27,18 +27,15 @@ public class EmployeeController {
         return "employee/end2";
     }
 
+    //【指摘】Javadocをつけましょう。
     @GetMapping("/emp/end")
     public String showTherd() {
         return "employee/therd";
     }
-    
+
+    //【指摘】Javadocをつけましょう。
     @GetMapping("/emp/end")
     public String show6th() {
-        return "employee/therd";
-    }
-
-    @GetMapping("/emp/end")
-    public String show7th() {
         return "employee/therd";
     }
 }
