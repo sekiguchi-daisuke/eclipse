@@ -18,6 +18,6 @@ public class EmployeeController {
 
       @GetMapping("/emp/end")
     public String showSecond() {
-        return "employee/end";
+        return "employee/end2";
     }
 }
