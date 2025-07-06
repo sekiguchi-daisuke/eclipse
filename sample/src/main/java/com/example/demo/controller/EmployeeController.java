@@ -21,8 +21,13 @@ public class EmployeeController {
         return "employee/end2";
     }
 
-          @GetMapping("/emp/end")
+    @GetMapping("/emp/end")
     public String showTherd() {
         return "employee/therd";
+    }
+
+    @GetMapping("/emp/end")
+    public String show4th() {
+        return "employee/4th";
     }
 }
