@@ -16,7 +16,11 @@ public class EmployeeController {
         return "employee/search";
     }
 
-      @GetMapping("/emp/end")
+    /**
+     * コメントの追加
+     * @return
+     */
+    @GetMapping("/emp/end")
     public String showSecond() {
         return "employee/end2";
     }
