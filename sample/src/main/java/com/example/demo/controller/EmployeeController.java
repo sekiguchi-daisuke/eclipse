@@ -39,10 +39,14 @@ public class EmployeeController {
         return "employee/therd";
     }
 
+<<<<<<< HEAD
     //【指摘】Javadocをつけましょう。
     @GetMapping("/emp/end")
     public String show7th() {
         //【指摘】不要なコードは消しましょう。
         return "employee/therd";
     }
+=======
+
+>>>>>>> branch 'review' of https://github.com/sekiguchi-daisuke/eclipse.git
 }
