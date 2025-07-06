@@ -13,20 +13,6 @@ public class EmployeeController {
         return "index";
     }
 
-    @GetMapping("/emp/start")
-    public String showSearch() {
-        return "employee/search";
-    }
-
-    /**
-     * コメントの追加
-     * @return
-     */
-    @GetMapping("/emp/end")
-    public String showSecond() {
-        return "employee/end2";
-    }
-
     @GetMapping("/emp/end")
     public String showTherd() {
         return "employee/therd";
